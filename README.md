@@ -24,6 +24,7 @@ This is compared against a traditional Machine Learning model (Logistic Regressi
     - The HuggingFace repository was used due to its popularity
     - The [ESM2b](https://huggingface.co/facebook/esm2_t12_35M_UR50D) PPLM was used
     - Model is finetuned over 10 epochs
+- `05_Prediction_Analysis` contains code for prediction analysis using confusion matrices for all experiments
 
 ## Results
 - Finetuned Transformer-based PPLM achieves accuracies as high as **98.3%**
