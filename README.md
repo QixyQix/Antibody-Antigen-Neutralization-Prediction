@@ -28,8 +28,8 @@ This is compared against a traditional Machine Learning model (Logistic Regressi
 ## Results
 - Finetuned Transformer-based PPLM achieves accuracies as high as **98.3%**
 - Using full antibody sequence provides some additional benefit to model accuracy
-![esm_balanced_full](/05%20Prediction%20Analysis/lr_bal_full.png "Confusion Matrix for Full Antibody Sequence (Logistic Regression)")
-![esm_balanced_full](/05%20Prediction%20Analysis/esm_bal_full.png "Confusion Matrix for Full Antibody Sequence (Logistic Regression)")
+![lr_balanced_full](/05_Prediction_Analysis/lr_bal_full.png "Confusion Matrix for Full Antibody Sequence (Logistic Regression)")
+![esm_balanced_full](/05_Prediction_Analysis/esm_bal_full.png "Confusion Matrix for Full Antibody Sequence (ESM2b Model)")
 
 ## Notes
 - The `training_combined.csv` file has been excluded from this repository due to its large file size, it can be recreated by combining `training_negative.csv` and `training_positive.csv` found in the `01_Data_Cleaning` folder
